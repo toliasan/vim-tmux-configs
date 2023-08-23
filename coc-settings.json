@@ -1,0 +1,5 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "java"],
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true
+}
