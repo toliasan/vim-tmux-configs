@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/autoload')
 
   Plug 'preservim/nerdtree'
 	Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -35,6 +35,11 @@ call plug#begin('~/.vim/plugged')
 	Plug 'bam9523/vim-decompile'
 	Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 	Plug 'tpope/vim-commentary' " Can read more about this plug lower
+	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+	Plug 'mfussenegger/nvim-dap'
+  Plug 'neovim/nvim-lspconfig'
+  Plug 'hrsh7th/cmp-nvim-lsp'
+  Plug 'hrsh7th/nvim-cmp'
 
 call plug#end()
 
@@ -146,12 +151,11 @@ let g:coc_global_extensions = [
 	\ 'coc-git',
 	\ 'coc-prettier',
 	\ 'coc-eslint',
-	\ 'coc-python',
-	\ 'coc-jedi',
 	\ 'coc-pyright',
 	\ 'coc-java',
 	\ 'coc-java-debug',
 	\ 'coc-go',
+	\ 'coc-lua',
 \ ]
 
 let g:prettier#autoformat = 0
