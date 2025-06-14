@@ -225,6 +225,7 @@ autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.gra
  "set backupdir=~/.cache/vim " Directory to store backup files.
  "set noswapfile            " disable creating swap file
 
+" !Important if there is prettier issue - it can be fixed by editing vim-prettier plugin
 
 
 " to save vim session use command:
