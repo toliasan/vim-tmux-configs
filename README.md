@@ -1,7 +1,7 @@
 # Files location
 
 
-## init.vim
+## init.vim and coc-settings.json
 should be located at: `~/.config/nvim/`
 
 
