@@ -1,5 +1,19 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "java"],
+  "coc.preferences.formatOnSave": true,
+  "pyright.inlayHints.functionReturnTypes": false,
+  "pyright.inlayHints.variableTypes": false,
+  "pyright.inlayHints.parameterTypes": false,
   "javascript.suggest.autoImports": true,
-  "typescript.suggest.autoImports": true
+  "typescript.suggest.autoImports": true,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/default-runtime",
+      "default": true
+    }
+  ],
+  "java.referencesCodeLens.enabled": true,
+  "java.implementationsCodeLens.enabled": true,
+  "java.format.enabled": true,
+  "java.project.importHint": true
 }
